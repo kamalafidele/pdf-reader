@@ -31,7 +31,6 @@ router.post(
 
         return res.status(200).json({ text });
     } catch (e) {
-        console.log(e);
         return res.status(500).json(e);
     }
   }
